@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poetsen One", sans-serif;
 }
+
 
 
 body {
@@ -27,12 +34,22 @@ body {
     border-radius: 16px;
     box-shadow: #e95d00 0px 20px 30px -10px;
     background: transparent;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(25px);
 }
+
+.formulario{
+    padding:20px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
 h1 {
     text-align: center;
     color: #e95d00;
 }
+
 
 input[type="text"], input[type="email"], input[type="tel"], #msg, input[type="date"] {
     width: 100%;
