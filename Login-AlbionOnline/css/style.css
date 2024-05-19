@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/albion.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.container {
+    max-width: 500px;
+    margin: 70px auto;
+    padding: 20px 35px 20px 15px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+h1 {
+    text-align: center;
+    color: #333;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    }
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    }
+
+.senha-icon{
+    display: relative;
+}
+
+.senha-icon i{
+    font-size: 25px;
+    position: absolute;
+    right: 34%;
+    top: 46.5%;
+
+}
+
+.senha-icon i:hover{
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 104.6%;
+    padding: 10px;
+    margin-top: 70px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+button:hover {
+    background-color: #0056b3;
+    }
